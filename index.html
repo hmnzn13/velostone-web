@@ -155,7 +155,7 @@ a{color:inherit}
 .team-video{grid-area:video;position:relative;width:72%;aspect-ratio:4/5;border-radius:22px;overflow:hidden;background:#596a57}
 .team-video video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 38%;display:block}
 .about-gap{margin-top:clamp(56px,9vw,120px)}
-.about-grid{display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"title copy" "photo copy";column-gap:32px;row-gap:clamp(28px,3.5vw,48px);align-items:start;margin-bottom:clamp(8px,2vw,24px)}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"title copy";column-gap:32px;row-gap:clamp(28px,3.5vw,48px);align-items:start;margin-bottom:clamp(8px,2vw,24px)}
 .about-grid .sec-title{grid-area:title}
 .about-grid .intro__copy{grid-area:copy}
 .about-photo{grid-area:photo;position:relative;width:72%;aspect-ratio:469/394;border-radius:22px;overflow:hidden;background:#596a57}
@@ -192,7 +192,7 @@ a{color:inherit}
 }
 @media (max-width:860px){
   .modal__intro{grid-template-columns:1fr;gap:18px}
-  .about-grid{grid-template-columns:1fr;grid-template-areas:"title" "copy" "photo"}
+  .about-grid{grid-template-columns:1fr;grid-template-areas:"title" "copy"}
   .about-photo{width:100%}
   .team-grid{grid-template-columns:1fr;grid-template-rows:auto;grid-template-areas:"title" "copy" "video"}
   .team-video{width:100%}
@@ -296,8 +296,6 @@ a{color:inherit}
           <p>Lo que empezó hace tres generaciones es hoy una empresa especializada en la reforma y rehabilitación de edificios. Esa trayectoria nos ha dado algo que no se improvisa: experiencia real en obra, un conocimiento profundo de cada sistema constructivo y un criterio que aplicamos en todos tus proyectos.</p>
           <p>Seguimos mejorando cada día. Incorporamos nuevas técnicas, materiales y soluciones de eficiencia energética, sin perder los valores que nos han traído hasta aquí: rigor, compromiso con los plazos y un acabado de calidad en cada obra.</p>
         </div>
-        <!-- Foto: guárdala como img/sobre-nosotros.jpg -->
-        <div class="about-photo reveal"><img src="img/sobre-nosotros.jpg" alt="Obra de VeloStone" loading="lazy" onerror="this.remove()"></div>
       </div>
       <div class="values reveal">
         <div class="value"><span class="value__code">01</span><h3>Rigor</h3><p>Un criterio técnico y un conocimiento profundo de cada sistema constructivo, aplicados en todos los proyectos.</p></div>
